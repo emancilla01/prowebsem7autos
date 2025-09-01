@@ -1,8 +1,18 @@
-@extends('vista_inicio1')
+@extends('plantillas.plantilla1')
+@section('menu')
+    @include('menu1')
+@endsection
+
 @section('contenido1')
-    <h1>Clientes</h1>
-    <hr>
-    <h1>En construccion.</h1>
+<form action="" method="post">
+    <div class="row mb-3" >
+        <label class="col" for="" class="form-label">Name</label>
+        <input class="col" type="text" class="form-control"></input>                 
+                
+    </div>
+</form>
+    
+
 @endsection
 
 
