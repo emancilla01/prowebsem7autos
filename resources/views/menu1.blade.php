@@ -1,7 +1,7 @@
 <nav
     class="navbar navbar-expand-sm navbar-dark bg-primary"
    >
-    <a class="navbar-brand" href="autos">Autos</a>
+    <a class="navbar-brand" href="autos"></a>
     <button
         class="navbar-toggler d-lg-none"
         type="button"
@@ -14,14 +14,24 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
             <li class="nav-item">
+                <a class="nav-link active" href="autos" aria-current="page"
+                    >Autos <span class="visually-hidden">(current)</span></a
+                >
+            </li>
+            <li class="nav-item">
                 <a class="nav-link active" href="marcas" aria-current="page"
                     >Marcas <span class="visually-hidden">(current)</span></a
                 >
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="clientes">clientes</a>
+                <a class="nav-link active" href="clientes" aria-current="page"
+                    >Clientes <span class="visually-hidden">(current)</span></a
+                >
             </li>
-            <li class="nav-item dropdown">
+            {{-- <li class="nav-item">
+                <a class="nav-link" href="clientes">clientes</a>
+            </li> --}}
+            {{-- <li class="nav-item dropdown">
                 <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -35,7 +45,7 @@
                     <a class="dropdown-item" href="#">Action 1</a>
                     <a class="dropdown-item" href="#">Action 2</a>
                 </div>
-            </li>
+            </li> --}}
         </ul>
         <form class="d-flex my-2 my-lg-0">
             <input

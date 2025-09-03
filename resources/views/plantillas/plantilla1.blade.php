@@ -6,28 +6,32 @@
     <title>Sistema de Autos</title>
     @vite('resources/js/app.js')
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                Sistema de Autos
-            </div>
-        </div>
-        <div class="row">
+<body>    
+    <div class="row">
             <div class="col">
                 @yield('menu')
             </div>
         </div>
+    <div class="container">
+        {{-- <div class="row">
+            <div class="col">
+                Sistema de Autos
+            </div>
+        </div> --}}
+        
         <div class="row">
             <div class="col">
                 @yield('contenido1')
             </div>
         </div>
-        <div class="row">
-            <div class="col">
+
+        <nav class="navbar fixed-bottom navbar-dark bg-primary">
+        <div class="container-fluid justify-content-center">
+            <span class="navbar-text text-center w-100">
                 pie de pagina
-            </div>
+            </span>
         </div>
+    </nav>
     </div>
 </body>
 </html>

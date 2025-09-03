@@ -3,7 +3,10 @@
    @include('menu1')
 @endsection
 @section('contenido1')
-    <h2>Bienvenidos todos al sistema</h2>
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <h2 class="text-center">Bienvenidos todos al sistema</h2>
+</div>   
+
 @endsection
 
 
